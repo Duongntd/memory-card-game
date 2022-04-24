@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 5px 5px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    max-width: 450px;
+    height: 450px;
+}
+.cards {
+    margin: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.hide {
+    box-shadow: none;
+}
